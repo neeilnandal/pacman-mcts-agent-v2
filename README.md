@@ -2,6 +2,20 @@
 
 A Python Game AI agent for the Pac-Man Capture the Flag environment. The team combines an offensive Pacman agent with MCTS-inspired return-home planning and a defensive Ghost agent with rule-based invader chasing.
 
+## Project Snapshot
+
+| Area                  | Details                                                                                                                                    |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Status**            | Complete v2 implementation; evaluation upgrade in progress                                                                                 |
+| **Problem**           | Balance food collection, survival, return-home timing, and defensive coverage in an adversarial Capture-the-Flag environment               |
+| **Approach**          | Hybrid team: MCTS-inspired return-home planning for the offensive agent and rule-based invader chasing for the defensive agent             |
+| **Tech**              | Python, multi-agent systems, heuristic search, UCT-style selection, adversarial game AI                                                    |
+| **Reproducibility**   | Run inside the Berkeley Pac-Man Capture-the-Flag framework using `capture.py`                                                              |
+| **Validation**        | Score tracking and gameplay outputs are included; seeded benchmark logs and ablation results will be published under `results/evaluation/` |
+| **Key design choice** | Search is invoked selectively when risk rises or carried food makes returning home more valuable than collecting another pellet            |
+| **Scope**             | Educational game-AI project; not intended as a full stochastic opponent-modelling system                                                   |
+
+
 Repository Summary
 Field	Details
 Project type	Game AI / multi-agent decision-making
