@@ -260,17 +260,3 @@ venv/
 plots/*.tmp
 reports/*.tmp
 ```
-
-SEO Keywords
-Relevant keywords:
-Pac-Man Capture the Flag AI
-Monte Carlo Tree Search
-MCTS game agent
-multi-agent game AI
-Pacman AI agent
-heuristic game AI
-adversarial search
-defensive agent
-offensive Pacman agent
-Python game AI project
-
